@@ -1,0 +1,32 @@
+body {
+  max-width: 400px;
+}
+
+.block {
+  padding: 10px;
+  text-align: center;
+  border: 2px dotted black;
+}
+
+.image {
+  width: 350px;
+}
+
+.txt {
+  margin: 20px 0 0 0;
+  padding: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  background-color: #d60505;
+  border: 2px solid #514a4a;
+  border-radius: 5px;
+}
+
+.txt:active {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
